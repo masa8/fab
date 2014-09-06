@@ -32,24 +32,27 @@ fabmoduleのインストール
 9. fab とタイプし、ウインドウが表示されアプリが起動することを確認する
 
 
-Note: Step2,3は既に私のマシンにインストール済みでしたので参考サイトのリンクのみ記載しました
+Note: Step2,3,4は既に私のマシンにインストール済みでしたので参考サイトのリンクのみ記載しました
 
 Modela接続準備
 --------------
-1. http://www.startech.com/Downloads を開く
-2. EnterProductIDに ICUSB232V2 とタイプしSerchボタンをクリックする
-3. 表示される[サイト](http://www.startech.com/Cards-Adapters/Serial-Cards-Adapters/USB-to-RS232-Serial-Adapter-Cable~ICUSB232V2#dnlds)を確認する
-4. Prolific_PL2303.zip をクリックしダウンロードする
-5. Prolific_PL2303/Mac/Mac OS 10.6_10.7/PL2303_1.4.0.dmg をクリックする
-6. PL2303_1.4.0をクリックしインストーラの指示通りにインストールする
-7. macを再起動する
-8. Modela MDX-15とmacをUSBtoSerialで接続する
-9. Applications -> Utilities -> Terminal をクリックする
-10. ls /dev/tty.usb* とタイプし　/dev/tty.usbserialと表示されることを確認する
-11. sudo easy_install pip とタイプしpythonのパッケージ管理システムをインストールする
-12. sudo pip install pyserialとタイプしpythonのserialパッケージをインストールする
-13. /usr/local/bin/rml_send_gui　というテキストファイルの中の*/dev/ttyUSB0*と記載されている箇所を*/dev/tty.usbserial*にすべて変更する
-14. /usr/local/bin/fab_sendというテキストファイルの中の*/dev/ttyUSB0*と記載されている箇所を*/dev/tty.usbserial*に変更する
+1. USBtoSerialドライバをインストールする  
+ 1.1. http://www.startech.com/Downloads を開く  
+ 1.2. EnterProductIDに ICUSB232V2 とタイプしSerchボタンをクリックする  
+ 1.3. 表示される[サイト](http://www.startech.com/Cards-Adapters/Serial-Cards-Adapters/USB-to-RS232-Serial-Adapter-Cable~ICUSB232V2#dnlds)を確認する  
+ 1.4. Prolific_PL2303.zip をクリックしダウンロードする  
+ 1.5. Prolific_PL2303/Mac/Mac OS 10.6_10.7/PL2303_1.4.0.dmg をクリックする  
+ 1.6. PL2303_1.4.0をクリックしインストーラの指示通りにインストールする  
+ 1.7. macを再起動する  
+ 1.8. Modela MDX-15とmacをUSBtoSerialで接続する  
+ 1.9. Applications -> Utilities -> Terminal をクリックする  
+ 1.10. ls /dev/tty.usb* とタイプし　/dev/tty.usbserialと表示されることを確認する  
+2. pySerialをインストールする  
+ 2.1. sudo easy_install pip とタイプしpythonのパッケージ管理システムをインストールする  
+ 2.2. sudo pip install pyserialとタイプしpythonのserialパッケージをインストールする  
+3. fabmoduleの修正をする  
+3.1. /usr/local/bin/rml_send_gui　というテキストファイルの中の*/dev/ttyUSB0*と記載されている箇所を*/dev/tty.usbserial*にすべて変更する  
+3.2. /usr/local/bin/fab_sendというテキストファイルの中の*/dev/ttyUSB0*と記載されている箇所を*/dev/tty.usbserial*に変更する  
  
 fabmoduleでModelaMDX-15を動かす
 -------------------------------
