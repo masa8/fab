@@ -1,0 +1,2 @@
+fabmoduleをmacにインストールしてModeraに出力する
+
