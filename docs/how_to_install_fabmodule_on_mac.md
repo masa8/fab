@@ -9,26 +9,26 @@ fabmoduleでModela MDX-15を使う
 
 fabmoduleのインストール
 -----------------------
- 1. [Fab Moduleサイト(mit.edu)](http://kokompe.cba.mit.edu/downloads.html)で手順を確認する
- 2. XCode をAppStoreからインストールする
- 3. Command Line Tools for XCode をインストールする[(参考)](http://qiita.com/3yatsu/items/47470091277d46f3fde2)
- 4. Homebrewをインストール[(参考)](http://qiita.com/b4b4r07/items/6efebc2f3d1cbbd393fc)
- 5.
- 
- 僕は、上記作業が終わっていました。以下本日の作業内容詳細です.  
+1. [Fab Moduleサイト(mit.edu)](http://kokompe.cba.mit.edu/downloads.html)で手順を確認する
+2. XCode をAppStoreからインストールする
+3. Command Line Tools for XCode をインストールする[(参考)](http://qiita.com/3yatsu/items/47470091277d46f3fde2)
+4. Homebrewをインストール[(参考)](http://qiita.com/b4b4r07/items/6efebc2f3d1cbbd393fc)
 
- 5. brew install boost cmake libpng giflib　とタイプしインストールする
- 6. http://www.wxpython.org/download.php にアクセスする
- 7. wxPython3.0-osx-cocoa-py2.7 をクリックしダウンロードする
- 8. wxPython3.0-osx-3.0.0.0-cocoa-py2.7.dmgをクリックする
- 9. wxPython3.0-osx-cocoa-py2.7.pkgをクリックし、インストーラの指示通りにインストールする
- 10. http://kokompe.cba.mit.edu/downloads.html にアクセスしdownloadをクリックする
- 11. ダウンロードしたfab_srcフォルダをホームディレクトリ(/Users/<your home>)に移動する
- 12. Applications -> Utilities -> Terminal をクリックする
- 13. cd fab_src とタイプしfab_srcフォルダに移動する
- 14. make fab とタイプしエンターしfabmoduleを作成する
- 15. make install　とタイプしfabmoduleをインストールする
- 16. fab とタイプし、ウインドウが表示されが起動することを確認する
+上記環境が既にあったので、上記は概要のリンクのみ記載します。
+下記、詳細を記載します。
+
+5. brew install boost cmake libpng giflib　とタイプしインストールする
+6. http://www.wxpython.org/download.php にアクセスする
+7. wxPython3.0-osx-cocoa-py2.7 をクリックしダウンロードする
+8. wxPython3.0-osx-3.0.0.0-cocoa-py2.7.dmgをクリックする
+9. wxPython3.0-osx-cocoa-py2.7.pkgをクリックし、インストーラの指示通りにインストールする
+10. http://kokompe.cba.mit.edu/downloads.html にアクセスしdownloadをクリックする
+11. ダウンロードしたfab_srcフォルダをホームディレクトリ(/Users/<your home>)に移動する
+12. Applications -> Utilities -> Terminal をクリックする
+13. cd fab_src とタイプしfab_srcフォルダに移動する
+14. make fab とタイプしエンターしfabmoduleを作成する
+15. make install　とタイプしfabmoduleをインストールする
+16. fab とタイプし、ウインドウが表示されアプリが起動することを確認する
 
 Modela接続準備
 --------------
