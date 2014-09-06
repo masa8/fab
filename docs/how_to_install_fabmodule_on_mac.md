@@ -20,10 +20,10 @@ fabmoduleのインストール
  7. wxPython3.0-osx-cocoa-py2.7 をクリックしダウンロードする
  8. wxPython3.0-osx-3.0.0.0-cocoa-py2.7.dmgをクリックする
  9. wxPython3.0-osx-cocoa-py2.7.pkgをクリックし、インストーラの指示通りにインストールする
- 10. http://kokompe.cba.mit.edu/downloads.html　のdownloadをクリックする
+ 10. http://kokompe.cba.mit.edu/downloads.html にアクセスしdownloadをクリックする
  11. ダウンロードしたfab_srcフォルダをホームディレクトリ(/Users/<your home>)に移動する
  12. Applications -> Utilities -> Terminal をクリックする
- 13. cd fab_src　としfab_srcフォルダに移動する
+ 13. cd fab_src とタイプしfab_srcフォルダに移動する
  14. make fab とタイプしエンターしfabmoduleを作成する
  15. make install　とタイプしfabmoduleをインストールする
  16. fab とタイプし、ウインドウが表示されが起動することを確認する
