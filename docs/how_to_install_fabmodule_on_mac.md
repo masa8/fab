@@ -12,7 +12,7 @@ fabmoduleのインストール
  1. [Fab Moduleサイト(mit.edu)](http://kokompe.cba.mit.edu/downloads.html)で手順を確認する
  2. XCode をAppStoreからインストールする
  3. Command Line Tools for XCode をインストールする[(参考)](http://qiita.com/3yatsu/items/47470091277d46f3fde2)
- 4. Homebrewをインストール[(参考)](http://qiita.com/b4b4r07/items/6efebc2f3d1cbbd393fc)
+ 4. Homebrewをインストール[(参考)](http://qiita.com/b4b4r07/items/6efebc2f3d1cbbd393fc)  
  僕は、上記環境がそろっていました。以下作業内容詳細です。
 
  5. brew install boost cmake libpng giflib　とタイプしインストールする
