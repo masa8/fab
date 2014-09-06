@@ -16,7 +16,7 @@ fabmoduleのインストール
 5. Applications -> Utilities -> Terminal をクリックしターミナルを起動する
 6. `$brew install boost cmake libpng giflib`　とタイプしfabmoduleの作成に必要なライブラリをインストールする
 7. wxPythonをインストールする  
- 7.1. ダウンロードするため、http://www.wxpython.org/download.php にアクセスする  
+ 7.1. http://www.wxpython.org/download.php にアクセスする  
  7.2. wxPython3.0-osx-cocoa-py2.7 をクリックする  
  7.3. wxPython3.0-osx-3.0.0.0-cocoa-py2.7.dmgをクリックする  
  7.4. wxPython3.0-osx-cocoa-py2.7.pkgをクリックする  
