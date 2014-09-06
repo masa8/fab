@@ -15,19 +15,21 @@ fabmoduleのインストール
 4. Homebrewをインストール[(参考)](http://qiita.com/b4b4r07/items/6efebc2f3d1cbbd393fc)
 5. Applications -> Utilities -> Terminal をクリックしターミナルを起動する
 6. brew install boost cmake libpng giflib　とタイプしfabmoduleの作成に必要なライブラリをインストールする
-7. wxPythonをダウンロードするため、http://www.wxpython.org/download.php にアクセスする
-8. wxPython3.0-osx-cocoa-py2.7 をクリックする
-9. wxPython3.0-osx-3.0.0.0-cocoa-py2.7.dmgをクリックする
-10. wxPython3.0-osx-cocoa-py2.7.pkgをクリックする
-11. インストーラの指示通りにインストールする
-12. http://kokompe.cba.mit.edu/downloads.html にアクセスする
-13. downloadリンクをクリックしfabmoduleのソースコードをダウンロードする
-14. ダウンロードしたfab_srcフォルダをホームディレクトリ(/Users/<your home>)に移動する
-15. Applications -> Utilities -> Terminal をクリックする
-16. cd fab_src とタイプしfab_srcフォルダに移動する
-17. make fab とタイプしエンターしfabmoduleを作成する
-18. make install　とタイプしfabmoduleをインストールする
-19. fab とタイプし、ウインドウが表示されアプリが起動することを確認する
+7. wxPythonをインストールする
+ 7.1.ダウンロードするため、http://www.wxpython.org/download.php にアクセスする
+ 7.2. wxPython3.0-osx-cocoa-py2.7 をクリックする
+ 7.3. wxPython3.0-osx-3.0.0.0-cocoa-py2.7.dmgをクリックする
+ 7.4. wxPython3.0-osx-cocoa-py2.7.pkgをクリックする
+ 7.5. インストーラの指示通りにインストールする
+8. fabmoduleをインストールする
+ 8.1. http://kokompe.cba.mit.edu/downloads.html にアクセスする
+ 8.2. downloadリンクをクリックしfabmoduleのソースコードをダウンロードする
+ 8.3. ダウンロードしたfab_srcフォルダをホームディレクトリ(/Users/<your home>)に移動する
+ 8.4. Applications -> Utilities -> Terminal をクリックする
+ 8.5. cd fab_src とタイプしfab_srcフォルダに移動する
+ 8.6. make fab とタイプしエンターしfabmoduleを作成する
+ 8.7. make install　とタイプしfabmoduleをインストールする
+9. fab とタイプし、ウインドウが表示されアプリが起動することを確認する
 
 
 Note: Step2,3は既に私のマシンにインストール済みでしたので参考サイトのリンクのみ記載しました
