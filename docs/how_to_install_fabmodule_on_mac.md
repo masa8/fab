@@ -51,6 +51,6 @@ Modela接続準備
  
 fabmoduleでModelaMDX-15を動かす
 -------------------------------
-1.ターミナルでfabとタイプしfabmoduleを起動する
+1. ターミナルでfabとタイプしfabmoduleを起動する
 2. [こちらのサイト(qiita.com)](http://qiita.com/mio_k/items/231fec28b5491345e469)を参考に動かす
  
