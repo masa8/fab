@@ -40,7 +40,7 @@ Modela接続準備
 4. Prolific_PL2303.zip をクリックしダウンロードする
 5. Prolific_PL2303/Mac/Mac OS 10.6_10.7/PL2303_1.4.0.dmg をクリックする
 6. PL2303_1.4.0をクリックしインストーラの指示通りにインストールすうr
-7. macの再起動すうr
+7. macを再起動する
 8. Modela MDX-15とmacをUSBtoSerialで接続する
 9. Applications -> Utilities -> Terminal をクリックする
 10. ls /dev/tty.usb* とタイプし　/dev/tty.usbserialと表示されることを確認する
