@@ -12,7 +12,7 @@ fabmoduleのインストール
 1. [Fab Moduleサイト(mit.edu)](http://kokompe.cba.mit.edu/downloads.html)で手順を確認する
 2. XCode をAppStoreからインストールする[(参考)](https://itunes.apple.com/jp/app/xcode/id497799835?mt=12)
 3. Command Line Tools for XCode をインストールする[(参考)](http://qiita.com/3yatsu/items/47470091277d46f3fde2)
-4. Homebrewをインストール[(参考)](http://qiita.com/b4b4r07/items/6efebc2f3d1cbbd393fc)
+4. Homebrewをインストールする[(参考)](http://qiita.com/b4b4r07/items/6efebc2f3d1cbbd393fc)
 5. Applications -> Utilities -> Terminal をクリックしターミナルを起動する
 6. brew install boost cmake libpng giflib　とタイプしfabmoduleの作成に必要なライブラリをインストールする
 7. wxPythonをインストールする  
@@ -50,8 +50,8 @@ Modela接続準備
 2. pySerialをインストールする  
  2.1. sudo easy_install pip とタイプしpythonのパッケージ管理システムをインストールする  
  2.2. sudo pip install pyserialとタイプしpythonのserialパッケージをインストールする  
-3. fabmoduleの修正をする  
-3.1. /usr/local/bin/rml_send_gui　というテキストファイルの中の*/dev/ttyUSB0*と記載されている箇所を*/dev/tty.usbserial*にすべて変更する  
+3. fabmoduleを修正する  
+3.1. /usr/local/bin/rml_send_gui　というテキストファイルの中の*/dev/ttyUSB0*と記載されている箇所をすべて*/dev/tty.usbserial*に変更する  
 3.2. /usr/local/bin/fab_sendというテキストファイルの中の*/dev/ttyUSB0*と記載されている箇所を*/dev/tty.usbserial*に変更する  
  
 fabmoduleでModelaMDX-15を動かす
