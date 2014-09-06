@@ -1,4 +1,4 @@
-fabmoduleでModela MDX-15を使う
+fabmoduleでModela MDX-15を動かすメモ
 ==============================
 
 環境
