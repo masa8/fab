@@ -14,7 +14,7 @@ fabmoduleのインストール
 3. Command Line Tools for XCode をインストールする[(参考)](http://qiita.com/3yatsu/items/47470091277d46f3fde2)
 4. Homebrewをインストールする[(参考)](http://qiita.com/b4b4r07/items/6efebc2f3d1cbbd393fc)
 5. Applications -> Utilities -> Terminal をクリックしターミナルを起動する
-6. brew install boost cmake libpng giflib　とタイプしfabmoduleの作成に必要なライブラリをインストールする
+6. `brew install boost cmake libpng giflib`　とタイプしfabmoduleの作成に必要なライブラリをインストールする
 7. wxPythonをインストールする  
  7.1. ダウンロードするため、http://www.wxpython.org/download.php にアクセスする  
  7.2. wxPython3.0-osx-cocoa-py2.7 をクリックする  
