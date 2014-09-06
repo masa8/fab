@@ -18,36 +18,39 @@ fabmoduleのインストール
 7. wxPythonをダウンロードするため、http://www.wxpython.org/download.php にアクセスする
 8. wxPython3.0-osx-cocoa-py2.7 をクリックする
 9. wxPython3.0-osx-3.0.0.0-cocoa-py2.7.dmgをクリックする
-10. wxPython3.0-osx-cocoa-py2.7.pkgをクリックし、インストーラの指示通りにインストールする
-11. http://kokompe.cba.mit.edu/downloads.html にアクセスする
-12. downloadリンクをクリックしfabmoduleのソースコードをダウンロードする
-13. ダウンロードしたfab_srcフォルダをホームディレクトリ(/Users/<your home>)に移動する
-14. Applications -> Utilities -> Terminal をクリックする
-15. cd fab_src とタイプしfab_srcフォルダに移動する
-16. make fab とタイプしエンターしfabmoduleを作成する
-17. make install　とタイプしfabmoduleをインストールする
-18. fab とタイプし、ウインドウが表示されアプリが起動することを確認する
+10. wxPython3.0-osx-cocoa-py2.7.pkgをクリックする
+11. インストーラの指示通りにインストールする
+12. http://kokompe.cba.mit.edu/downloads.html にアクセスする
+13. downloadリンクをクリックしfabmoduleのソースコードをダウンロードする
+14. ダウンロードしたfab_srcフォルダをホームディレクトリ(/Users/<your home>)に移動する
+15. Applications -> Utilities -> Terminal をクリックする
+16. cd fab_src とタイプしfab_srcフォルダに移動する
+17. make fab とタイプしエンターしfabmoduleを作成する
+18. make install　とタイプしfabmoduleをインストールする
+19. fab とタイプし、ウインドウが表示されアプリが起動することを確認する
 
 
-Note:Step2,3は既に私のマシンにインストール済みでしたので参考サイトのリンクのみ記載しました
+Note: Step2,3は既に私のマシンにインストール済みでしたので参考サイトのリンクのみ記載しました
 
 Modela接続準備
 --------------
- http://www.startech.com/Downloads を開く
- Enter Product IDに ICUSB232V2 とタイプしSerchボタンをクリック
- http://www.startech.com/Cards-Adapters/Serial-Cards-Adapters/USB-to-RS232-Serial-Adapter-Cable~ICUSB232V2#dnlds
- Prolific_PL2303.zip をクリックしダウンロード
- Prolific_PL2303/Mac/Mac OS 10.6_10.7/PL2303_1.4.0.dmg をクリック
- PL2303_1.4.0をクリックしインストーラの指示通りにインストール
- macの再起動
- Modela MDX-15とmacをUSBtoSerialで接続する
- Applications -> Utilities -> Terminal をクリック
- ls /dev/tty.usb* とタイプし　/dev/tty.usbserialと表示されることを確認
- sudo easy_install pip とタイプしpythonのパッケージ管理システムをインストール
- sudo pip install pyserialとタイプしpythonのserialパッケージをインストール
- /usr/local/bin/rml_send_gui　というテキストファイルの中の/dev/ttyUSB0と記載されている箇所を/dev/tty.usbserialにすべて変更
- /usr/local/bin/fab_sendというテキストファイルの中の/dev/ttyUSB0と記載されている箇所を/dev/tty.usbserialに変更
+1. http://www.startech.com/Downloads を開く
+2. EnterProductIDに ICUSB232V2 とタイプしSerchボタンをクリックすうr
+3. 表示される[サイト](http://www.startech.com/Cards-Adapters/Serial-Cards-Adapters/USB-to-RS232-Serial-Adapter-Cable~ICUSB232V2#dnlds)を確認する
+4. Prolific_PL2303.zip をクリックしダウンロードする
+5. Prolific_PL2303/Mac/Mac OS 10.6_10.7/PL2303_1.4.0.dmg をクリックする
+6. PL2303_1.4.0をクリックしインストーラの指示通りにインストールすうr
+7. macの再起動すうr
+8. Modela MDX-15とmacをUSBtoSerialで接続する
+9. Applications -> Utilities -> Terminal をクリックする
+10. ls /dev/tty.usb* とタイプし　/dev/tty.usbserialと表示されることを確認する
+11. sudo easy_install pip とタイプしpythonのパッケージ管理システムをインストールする
+12. sudo pip install pyserialとタイプしpythonのserialパッケージをインストールする
+13. /usr/local/bin/rml_send_gui　というテキストファイルの中の/dev/ttyUSB0と記載されている箇所を/dev/tty.usbserialにすべて変更する
+14. /usr/local/bin/fab_sendというテキストファイルの中の/dev/ttyUSB0と記載されている箇所を/dev/tty.usbserialに変更する
  
- fabとタイプする
- 使い方はこちらがすごくわかりやすかったです。
- http://qiita.com/mio_k/items/231fec28b5491345e469
+fabmoduleでModelaMDX-15を動かす
+-------------------------------
+ 1.ターミナルでfabとタイプしfabmoduleを起動する
+ 2. [こちらのサイト(qiita.com)](http://qiita.com/mio_k/items/231fec28b5491345e469)を参考に動かす
+ 
