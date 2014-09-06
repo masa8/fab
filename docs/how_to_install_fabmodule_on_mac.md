@@ -47,7 +47,7 @@ Modela接続準備
 11. sudo easy_install pip とタイプしpythonのパッケージ管理システムをインストールする
 12. sudo pip install pyserialとタイプしpythonのserialパッケージをインストールする
 13. /usr/local/bin/rml_send_gui　というテキストファイルの中の*/dev/ttyUSB0*と記載されている箇所を*/dev/tty.usbserial*にすべて変更する
-14. /usr/local/bin/fab_sendというテキストファイルの中の*/dev/ttyUSB0*と記載されている箇所*/dev/tty.usbserial*に変更する
+14. /usr/local/bin/fab_sendというテキストファイルの中の*/dev/ttyUSB0*と記載されている箇所を*/dev/tty.usbserial*に変更する
  
 fabmoduleでModelaMDX-15を動かす
 -------------------------------
