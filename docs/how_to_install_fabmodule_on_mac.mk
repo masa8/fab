@@ -1,5 +1,5 @@
-fabmoduleをmacにインストールしModelaに出力する手順
-
+fabmoduleをmacにインストールしてModelaMDX-15で出力する
+=====================================================
 
 OS								: Mac OSX Version 10.9.3
 USBtoRS232ケーブル:StarTechUSB to RS232 DB9 Serial Adapter Cable M/M (ICUSB232)
