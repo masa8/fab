@@ -14,8 +14,8 @@ fabmoduleのインストール
 3. Command Line Tools for XCode をインストールする[(参考)](http://qiita.com/3yatsu/items/47470091277d46f3fde2)
 4. Homebrewをインストール[(参考)](http://qiita.com/b4b4r07/items/6efebc2f3d1cbbd393fc)
 
-Step2-4は既に私のマシンにインストール済みでしたので、上記については参考資料のリンクのみ記載します。  
-下記、詳細を記載します。  
+　Step2-4は既に私のマシンにインストール済みでしたので、上記については参考資料のリンクのみ記載します。  
+　下記、詳細を記載します。  
 
 5. brew install boost cmake libpng giflib　とタイプしインストールする
 6. http://www.wxpython.org/download.php にアクセスする
