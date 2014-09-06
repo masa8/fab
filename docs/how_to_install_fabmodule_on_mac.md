@@ -7,23 +7,27 @@ fabmoduleでModela MDX-15を使う
  * USBtoRS232ケーブル: [StarTechUSB to RS232 DB9 Serial Adapter Cable M/M (ICUSB232)](http://www.amazon.com/StarTech-RS232-Serial-Adapter-Cable/dp/B000067SNB/ref=sr_1_16?s=electronics&ie=UTF8&qid=1401599135&sr=1-16&keywords=star+tech+serial)
 
 
+fabmoduleのインストール
+-----------------------
+ 1. [Fab Moduleサイト(mit.edu)](http://kokompe.cba.mit.edu/downloads.html)
+ 2. XCode をインストール
+ 3. Command Line Tools for XCode をインストール
+ 4. Homebrewをインストール
+ 5. brew install boost cmake libpng giflib
+ 6. http://www.wxpython.org/download.php にアクセス
+ 7. wxPython3.0-osx-cocoa-py2.7 をクリック
+ 8. wxPython3.0-osx-3.0.0.0-cocoa-py2.7.dmgをクリック
+ 9. wxPython3.0-osx-cocoa-py2.7.pkgをクリックし、インストーラの指示通りにインストール
+ 10. http://kokompe.cba.mit.edu/downloads.html　のdownloadをクリック
+ 11. ダウンロードしたfab_srcフォルダをホームディレクトリ(/Users/<your home>)に移動
+ 12. Applications -> Utilities -> Terminal をクリック
+ 13. cd fab_src
+ 14. make fab とタイプしエンター
+ 15. make install
+ 16. fab とタイプしアプリが起動することを確認
 
- http://kokompe.cba.mit.edu/downloads.html
- XCode をインストール
- Command Line Tools for XCode をインストール
- Homebrewをインストール
- brew install boost cmake libpng giflib
- http://www.wxpython.org/download.php にアクセス
- wxPython3.0-osx-cocoa-py2.7 をクリック
- wxPython3.0-osx-3.0.0.0-cocoa-py2.7.dmgをクリック
- wxPython3.0-osx-cocoa-py2.7.pkgをクリックし、インストーラの指示通りにインストール
- http://kokompe.cba.mit.edu/downloads.html　のdownloadをクリック
- ダウンロードしたfab_srcフォルダをホームディレクトリ(/Users/<your home>)に移動
- Applications -> Utilities -> Terminal をクリック
- cd fab_src
- make fab とタイプしエンター
- make install
- fab とタイプしアプリが起動することを確認
+Modela接続準備
+--------------
  http://www.startech.com/Downloads を開く
  Enter Product IDに ICUSB232V2 とタイプしSerchボタンをクリック
  http://www.startech.com/Cards-Adapters/Serial-Cards-Adapters/USB-to-RS232-Serial-Adapter-Cable~ICUSB232V2#dnlds
