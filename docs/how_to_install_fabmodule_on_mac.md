@@ -26,10 +26,10 @@ fabmoduleのインストール
  8.2. downloadリンクをクリックしfabmoduleのソースコードをダウンロードする  
  8.3. ダウンロードしたfab_srcフォルダをホームディレクトリ(/Users/<your home>)に移動する  
  8.4. Applications -> Utilities -> Terminal をクリックする  
- 8.5. cd fab_src とタイプしfab_srcフォルダに移動する 
- 8.6. make fab とタイプしエンターしfabmoduleを作成する  
- 8.7. make install　とタイプしfabmoduleをインストールする  
-9. fab とタイプし、ウインドウが表示されアプリが起動することを確認する
+ 8.5. `cd fab_src` とタイプしfab_srcフォルダに移動する 
+ 8.6. `make fab` とタイプしエンターしfabmoduleを作成する  
+ 8.7. `make install`　とタイプしfabmoduleをインストールする  
+9. `fab` とタイプし、ウインドウが表示されアプリが起動することを確認する
 
 
 Note: Step2,3,4は既に私のマシンにインストール済みでしたので参考サイトのリンクのみ記載しました
@@ -46,16 +46,16 @@ Modela接続準備
  1.7. macを再起動する  
  1.8. Modela MDX-15とmacをUSBtoSerialで接続する  
  1.9. Applications -> Utilities -> Terminal をクリックする  
- 1.10. ls /dev/tty.usb* とタイプし　/dev/tty.usbserialと表示されることを確認する  
+ 1.10. `ls /dev/tty.usb*` とタイプし　/dev/tty.usbserialと表示されることを確認する  
 2. pySerialをインストールする  
- 2.1. sudo easy_install pip とタイプしpythonのパッケージ管理システムをインストールする  
- 2.2. sudo pip install pyserialとタイプしpythonのserialパッケージをインストールする  
+ 2.1. `sudo easy_install pip` とタイプしpythonのパッケージ管理システムをインストールする  
+ 2.2. `sudo pip install pyserial` とタイプしpythonのserialパッケージをインストールする  
 3. fabmoduleを修正する  
 3.1. /usr/local/bin/rml_send_gui　というテキストファイルの中の*/dev/ttyUSB0*と記載されている箇所をすべて*/dev/tty.usbserial*に変更する  
 3.2. /usr/local/bin/fab_sendというテキストファイルの中の*/dev/ttyUSB0*と記載されている箇所を*/dev/tty.usbserial*に変更する  
  
 fabmoduleでModelaMDX-15を動かす
 -------------------------------
-1. ターミナルでfabとタイプしfabmoduleを起動する
+1. ターミナルで`fab`とタイプしfabmoduleを起動する
 2. [こちらのサイト(qiita.com)](http://qiita.com/mio_k/items/231fec28b5491345e469)を参考に動かす
  
