@@ -31,8 +31,9 @@ fabmoduleのインストール
  8.7. `$make install`　とタイプしfabmoduleをインストールする  
 9. `$fab` とタイプし、ウインドウが表示されアプリが起動することを確認する
 
-![fab window image](../images/fab_window.png)
-
+|![fab window image](../images/fab_window.png)|
+|:-------------------------------------------:|
+|正しくインストールできたらfabmoduleがこのように表示される|
 
 Note: Step2,3,4は既に私のマシンにインストール済みでしたので参考サイトのリンクのみ記載しました
 
