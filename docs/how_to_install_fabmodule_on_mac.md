@@ -1,4 +1,4 @@
-fabmoduleでModela MDX-15を使う
+fabmoduleでModela MDX-15を動かす手順メモ
 ==============================
 
 環境
@@ -16,7 +16,7 @@ fabmoduleのインストール
 5. Applications -> Utilities -> Terminal をクリックしターミナルを起動する
 6. `$brew install boost cmake libpng giflib`　とタイプしfabmoduleの作成に必要なライブラリをインストールする
 7. wxPythonをインストールする  
- 7.1. ダウンロードするため、http://www.wxpython.org/download.php にアクセスする  
+ 7.1. http://www.wxpython.org/download.php にアクセスする  
  7.2. wxPython3.0-osx-cocoa-py2.7 をクリックする  
  7.3. wxPython3.0-osx-3.0.0.0-cocoa-py2.7.dmgをクリックする  
  7.4. wxPython3.0-osx-cocoa-py2.7.pkgをクリックする  
@@ -24,15 +24,18 @@ fabmoduleのインストール
 8. fabmoduleをインストールする    
  8.1. http://kokompe.cba.mit.edu/downloads.html にアクセスする  
  8.2. downloadリンクをクリックしfabmoduleのソースコードをダウンロードする  
- 8.3. ダウンロードしたfab_srcフォルダをホームディレクトリ(/Users/<your home>)に移動する  
+ 8.3. ダウンロードしたfab_srcフォルダをホームディレクトリ(/Users/&lt;your home dir&gt;/)に移動する  
  8.4. Applications -> Utilities -> Terminal をクリックする  
  8.5. `$cd fab_src` とタイプしfab_srcフォルダに移動する  
- 8.6. `$make fab` とタイプしエンターしfabmoduleを作成する  
+ 8.6. `$make fab` とタイプしfabmoduleを作成する  
  8.7. `$make install`　とタイプしfabmoduleをインストールする  
 9. `$fab` とタイプし、ウインドウが表示されアプリが起動することを確認する
 
+    |![fab window image](../images/fab_window.png)|
+    |:-------------------------------------------:|
+    |図１.　正しくインストールできたらfabmoduleがこのように表示される|
 
-Note: Step2,3,4は既に私のマシンにインストール済みでしたので参考サイトのリンクのみ記載しました
+    Note: Step2,3,4でインストールするソフトウエアは既に私のマシンにインストール済みでしたので参考のみ記載
 
 Modela接続準備
 --------------
@@ -51,11 +54,11 @@ Modela接続準備
  2.1. `$sudo easy_install pip` とタイプしpythonのパッケージ管理システムをインストールする  
  2.2. `$sudo pip install pyserial` とタイプしpythonのserialパッケージをインストールする  
 3. fabmoduleを修正する  
-3.1. `$sed -i -e 's/ttyUSB0/tty.usbserial/' /usr/local/bin/rml_send_gui` とタイプし　/usr/local/bin/rml_send_gui　というテキストファイルの中の*/dev/ttyUSB0*と記載されている箇所をすべて*/dev/tty.usbserial*に変更する  
+3.1. `$sed -i -e 's/ttyUSB0/tty.usbserial/' /usr/local/bin/rml_send_gui` とタイプし/usr/local/bin/rml_send_guiというテキストファイルの中の*/dev/ttyUSB0*と記載されている箇所をすべて*/dev/tty.usbserial*に変更する  
 3.2. `$sed -i -e 's/ttyUSB0/tty.usbserial/' /usr/local/bin/fab_send` とタイプし/usr/local/bin/fab_sendというテキストファイルの中の*/dev/ttyUSB0*と記載されている箇所を*/dev/tty.usbserial*に変更する  
  
 fabmoduleでModelaMDX-15を動かす
 -------------------------------
 1. ターミナルで`$fab`とタイプしfabmoduleを起動する
-2. fabmoduleの使い方は[こちらのサイト(qiita.com)](http://qiita.com/mio_k/items/231fec28b5491345e469)を参考にする
+2. fabmoduleの使い方は[こちらのサイト(qiita.com)](http://qiita.com/mio_k/items/231fec28b5491345e469)が参考になりました
  
