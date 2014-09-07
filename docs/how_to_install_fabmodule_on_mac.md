@@ -27,7 +27,7 @@ fabmoduleのインストール
  8.3. ダウンロードしたfab_srcフォルダをホームディレクトリ(/Users/&lt;your home dir&gt;/)に移動する  
  8.4. Applications -> Utilities -> Terminal をクリックする  
  8.5. `$cd fab_src` とタイプしfab_srcフォルダに移動する  
- 8.6. `$make fab` とタイプしエンターしfabmoduleを作成する  
+ 8.6. `$make fab` とタイプしfabmoduleを作成する  
  8.7. `$make install`　とタイプしfabmoduleをインストールする  
 9. `$fab` とタイプし、ウインドウが表示されアプリが起動することを確認する
 
