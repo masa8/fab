@@ -24,7 +24,7 @@ fabmoduleのインストール
 8. fabmoduleをインストールする    
  8.1. http://kokompe.cba.mit.edu/downloads.html にアクセスする  
  8.2. downloadリンクをクリックしfabmoduleのソースコードをダウンロードする  
- 8.3. ダウンロードしたfab_srcフォルダをホームディレクトリ(/Users/<div><your home dir></div>/)に移動する  
+ 8.3. ダウンロードしたfab_srcフォルダをホームディレクトリ(/Users/&lt;your home dir&gt;/)に移動する  
  8.4. Applications -> Utilities -> Terminal をクリックする  
  8.5. `$cd fab_src` とタイプしfab_srcフォルダに移動する  
  8.6. `$make fab` とタイプしエンターしfabmoduleを作成する  
